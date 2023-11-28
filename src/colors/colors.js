@@ -1,4 +1,4 @@
-exports.Colors = [
+exports.colors = [
 	{
 		name: "Slate",
 		id: "slate",

@@ -1,16 +1,10 @@
 {
   "name": "nshades",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "type": "module",
   "dependencies": {
     "chroma-js": "^2.4.2"
   },
-  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -22,7 +16,7 @@
     "js",
     "generator"
   ],
-  "author": "",
+  "author": "n.e.v.a",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eVillesseche/Shades/issues"

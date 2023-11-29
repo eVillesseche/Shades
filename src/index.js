@@ -10,7 +10,7 @@ exports.generate = (hex = chroma.random(), referenceColors = colors) =>
  * @param {Record<string, string>} args
  * @returns {Promise<import("vite").Plugin>}
  */
-exports.myshades = async (args = {}) => {
+exports.shades = async (args = {}) => {
 	return {
 		name: "tailwind-palettes-generator",
 		async config(config) {

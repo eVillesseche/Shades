@@ -1,30 +1,39 @@
 {
-	"name": "myshades",
-	"version": "1.0.6",
-	"description": "Generate css variable colors from tailwind palettes",
-	"files": [
-		"src",
-		"README.md"
-	],
-	"keywords": [
-		"scss",
-		"tailwind",
-		"vite",
-		"palettes",
-		"colors"
-	],
-	"main": "src/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"author": "Pivotass",
-	"license": "ISC",
-	"homepage": "https://github.com/PivotStick/myshades#readme",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/PivotStick/myshades"
-	},
-	"dependencies": {
-		"chroma-js": "^2.4.2"
-	}
+  "name": "shades",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.27.4",
+    "svelte": "^5.0.0-next.1",
+    "vite": "^4.4.2",
+    "shades": "git+ssh://git@github.com/eVillesseche/Shades.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "chroma-js": "^2.4.2"
+  },
+  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eVillesseche/Shades.git"
+  },
+  "keywords": [
+    "shades",
+    "css",
+    "js",
+    "generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eVillesseche/Shades/issues"
+  },
+  "homepage": "https://github.com/eVillesseche/Shades#readme"
 }

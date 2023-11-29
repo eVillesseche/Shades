@@ -1,5 +1,5 @@
 const chroma = require("chroma-js");
-const { findClosestColor } = require("shades/src/functions/findClosestColor");
+const { findClosestColor } = require("./findClosestColor");
 
 exports.generateColorFamily = (hexcode, referenceColors) => {
 	const closestColorFamily = findClosestColor(hexcode, referenceColors);

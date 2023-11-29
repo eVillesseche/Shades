@@ -1,9 +1,5 @@
 const chroma = require("chroma-js");
 
-/**
- * @param {string} hexcode
- * @param {typeof import("shades/src/functions/tailwind3").tailwindColors3} referenceColors
- */
 exports.findClosestColor = (hexcode, referenceColors) => {
 	// Add DELTA key / value to array of objects
 	referenceColors.forEach((color) => {
